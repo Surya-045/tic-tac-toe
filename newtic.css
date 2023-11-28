@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+#cont{
+    width: 100%;
+}
+#ticcont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 280px;
+    margin: auto;
+    margin-top: 200px;
+}
+.gamecompleted{
+    width: fit-content;
+    margin: 100px auto ;
+    
+    font-size: x-large;
+}
+.hide{
+    display: none;
+}
+.elems{
+    width: 80px;
+    height: 80px;
+    border: 2px red solid;
+    background-color: rgb(197, 190, 190);
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
